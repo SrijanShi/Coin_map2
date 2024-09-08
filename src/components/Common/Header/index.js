@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 import React from 'react'
 import AnchorTemporaryDrawer from './drawer';
 import "./styles.css";
-import Button from "/Users/srijanshitashma/Desktop/prices/src/components/Common/Button/index.js";
+import Button from "/Users/srijanshitashma/Desktop/prices/src/components/Common/Button";
 function Header() {
   return (
     <div className='navbar'>
