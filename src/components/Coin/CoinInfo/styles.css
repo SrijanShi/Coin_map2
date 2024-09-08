@@ -1,0 +1,25 @@
+.coin-info-heading{
+    margin: 1rem;
+    padding-left: 1rem;
+}
+.coin-info-heading:hover{
+    
+}
+.read-more-less{
+    color: var(--grey);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.coin-info-desc{
+    margin: 1rem;
+    padding: 1rem;
+}
+.coin-info-desc a{
+    color: var(--grey) !important;
+    text-decoration: underline !important;
+}
+.coin-info-desc a:hover {
+    color: var(--blue) !important;
+    transition: 0.3s;
+}

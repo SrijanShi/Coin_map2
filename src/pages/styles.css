@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  .top-5 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .gainers-heading {
+      padding-left: 2rem;
+      color: var(--white);
+    }
+    .gainers-heading:hover{
+        color: var(--green);
+        font-size: 1.8rem;
+        transition: 0.3s ease-out;
+    }
+    .losers-heading:hover{
+        color: var(--red);
+        font-size: 1.8rem;
+        transition: 0.3s ease-out;
+    }
+    .losers-heading {
+      /* styles specific to the losers heading */
+      padding-left: 2rem;
+      color: var(--white);
+    }  

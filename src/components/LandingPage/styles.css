@@ -1,0 +1,74 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.5rem 2rem;
+}
+.track-heading, .real-time-heading{
+    font-size: 6rem;
+    margin: 0;
+
+}
+.track-heading{
+    color: var(--white);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--white);
+}
+.track-heading:hover{
+    color: var(--green);
+    -webkit-text-stroke-color: var(--green);
+    transition: all 1s; 
+}
+.real-time-heading{
+    color: var(--blue);
+}
+.text-para{
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    color: var(--grey);
+}
+.text-para:hover{
+    color: var(--white);
+    transition: all 1s;
+}
+.phone-container{
+    width: 45%;
+    margin: 0;
+    position: relative;
+    top:0rem;
+}
+.phone-img{
+    position: absolute;
+    width: 420px;
+    top:1rem;
+    min-width: 300px;
+}
+@media only screen and (max-width: 1200px){
+    .track-heading, .real-time-heading{
+        font-size: 5rem;
+        margin: 0;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .phone-container{
+        width: 40%;
+        margin: 0;
+        position: relative;
+        top:0rem;
+    }
+    .phone-img{
+        position: absolute;
+        width: 420px;
+        top:1rem;
+        min-width: 200px;
+    }
+}
+@media only screen and (max-width: 800px){
+    .flex-info{
+        flex-direction: column;
+    }
+    .phone-container{
+        margin: auto;
+        display: block;
+    }
+}
